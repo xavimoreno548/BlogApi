@@ -1,1 +1,1 @@
-from .home_text import *
+from .home_text_view import *
