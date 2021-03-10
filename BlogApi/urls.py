@@ -39,7 +39,8 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
     path('home/', include('apps.home.urls')),
-    path('contact/', include('apps.contact.urls'))
+    path('contact/', include('apps.contact.urls')),
+    path('posts', include('apps.post.urls'))
 ]
 
 if settings.DEBUG:
